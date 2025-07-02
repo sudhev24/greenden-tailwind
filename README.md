@@ -25,7 +25,7 @@ Greenden is a responsive plant store website built using HTML and Tailwind CSS. 
 
 ## How to view
 
-You can access my portfolio website by visiting [https://github.com/sudhev24/udemy-clone-website] feel free to explore the cintent and get in touch!
+You can access my portfolio website by visiting [https://sudhev24.github.io/greenden-tailwind/] feel free to explore the cintent and get in touch!
 
 ## Contributing
 
