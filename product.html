@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Den</title>
+    <!--Tailwind css CDN link-->
+    <link href="
+https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css
+" rel="stylesheet">
+
+</head>
+<body>
+    <!--Responsive navbar-->
+    <nav class="bg-green-100 p-3 flex items-center justify-between shadow-xl sticky top-0 z-10">
+        <h1 class="text-2xl">GREENDEN</h1>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 h-6 w-6 md:hidden">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+</svg>
+
+        <ul class="flex gap-5 text-gray-600 hidden md:flex">
+            <li>
+                <a class="hover:underline hover:text-black" href="index.html">Home</a>
+            </li>
+            <li>
+                <a class="hover:underline hover:text-black" href="product.html">Products</a>
+            </li>
+            <li>
+                <a class="hover:underline hover:text-black" href="contacts.html">Contact</a>
+            </li>
+        </ul>
+        
+    </nav>
+    
+    <!--Our Products-->
+    <section class="p-4 text-center">
+        <h1 class="font-bold mt-5 text-3xl">Our Products</h1>
+        <input type="text" placeholder="Search for Products...." class="border border-black p-2 m-3" style="width: 80%;">
+        <div class="grid grid-cols-2 md:grid-cols-4 mt-10 gap-5">
+            <div>
+                <img src="./images/c2.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                <h1>Rose Plant</h1>
+                <p>$20</p>
+            </div>
+            <div>
+                <img src="./images/c3.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                <h1>Lilly Plant</h1>
+                <p>$42</p>
+            </div>
+            <div>
+                <img src="./images/c4.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                <h1>Money Plant</h1>
+                <p>$35</p>
+            </div>
+            <div>
+                <img src="./images/c5.jpg"class="inline hover:shadow-xl transform hover:-translate-y-2">
+                <h1>Spider Plant</h1>
+                <p>$15</p>
+            </div>
+        </div>
+        <div class="grid grid-cols-2 md:grid-cols-4 mt-10 gap-5">
+            <div>
+                <img src="./images/c6.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                <h1>Flower Less</h1>
+                <p>$22</p>
+            </div>
+            <div>
+                <img src="./images/c7.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                <h1>Pink Pot</h1>
+                <p>$34</p>
+            </div>
+            <div>
+                <img src="./images/c8.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                <h1>Yellow Pot</h1>
+                <p>$18</p>
+            </div>
+            <div>
+                <img src="./images/c9.jpg"class="inline hover:shadow-xl transform hover:-translate-y-2">
+                <h1>Paper Plant</h1>
+                <p>$24</p>
+            </div>
+        </div>
+    </section>
+    
+    <!--Footer-->
+    <section class="bg-green-100 mt-5">
+        <h1 class="font-bold text-3xl p-5">Greenden</h1>
+        <p class="pl-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste voluptate excepturi animi iusto tenetur debitis.</p>
+        <p class="p-5" >@2025 Greenden.com</p>
+    </section>
+</body>
+</html>
